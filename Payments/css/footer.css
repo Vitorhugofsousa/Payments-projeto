@@ -1,0 +1,35 @@
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #fff2e7;
+    flex-direction: row;
+    justify-content: space;
+    align-items: center;
+    }
+    
+    .alinhamento {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .redes{
+        display: flex;
+        gap: 35px;
+    }
+
+    .rodape-img {
+    height: 120px;
+    }
+
+    .tik-img {
+        height: 32px;
+    }
+
+    .insta-img {
+        height: 32px;
+    }
+
+.tt-img {
+    height: 32px;
+}
