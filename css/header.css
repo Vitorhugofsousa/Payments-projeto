@@ -1,0 +1,26 @@
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.cabecalho-img {
+    height: 70px;
+  
+}
+
+.botoes-cabecalho {
+    display: flex;
+    gap: 32px;
+
+}
+
+.botoes-do-cabecalho {
+    font-family: 'sarala', sans-serif;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 18px;
+}

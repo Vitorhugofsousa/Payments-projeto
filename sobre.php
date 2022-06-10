@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="stylesheet" type="text/css" href="css/style-sobre.css">
+   
+</head>
+<?php include('header.php'); ?>
+<body>
+            <main class="meio" >
+            <section class="explain" >
+                <div class="explicando" >
+                    <h1 class="titulo" > Esse é um projeto de portifófio é Baseado em 
+                       
+
+                    </h1>
+                    <p class="real-explain" >
+                    as referências de imagens podem ser encontradas </br>nesta página ou na navbar.
+                    </p>
+                </div>
+                <div class="img-tec" >
+                    <img class="img-html5" src="img/html5.png" alt="html5">
+                    <img class="img-css3" src="img/css3.png" alt="css3">
+                </div>
+
+            </section>
+            <section class="referencias" >
+                <div class="freepik" >
+                    <H3 class="titulos" >O FreePik foi o principal fornecedor de imagens para esse projeto</H3>
+                    <p class="paragrafos" > Você pode ir até o site deles clicando no botão abaixo</p>
+                    <a href="https://br.freepik.com/"><button class="botao-fp"  >FreePik</button></a>
+                </div>
+                <div class="gratispng">
+                    <h3 class="titulos" >O GrátisPng tambem contribuiu com algumas imagens</h3>
+                    <p class="paragrafos" >se você quiser acessar o site deles pode clicando no botão abaixo</p>
+                    <a href="https://www.gratispng.com/"><button class="botao-gpng" >GrátisPng</button></a>
+
+                </div>
+                <div class="pixlr" >
+                    <h3 class="titulos" >Alguns dos arquivos foram editados pelo Pixlr</h3>
+                    <p class="paragrafos" >é um otimo editor de imagens online e eu o recomendo bastante</p>
+                    <p class="paragrafos" >se você quer acessar o site deles pode ir até lá clicando no botão abaixo</p>
+                    <a href="https://pixlr.com/br/"><button class="botao-pixlr"  >Pixlr</button></a>
+                </div>
+                <div class="canva" >
+                    <h3 class="titulos" >A logo principal foi feita no Canva</h3>
+                    <p class="paragrafos" >embora a qualidade de renderização não tenha sido tão boa</p>
+                    <p class="paragrafos" >você pode ir até o site deles clicando no botão abaixo</p>
+                    <a href="https://www.canva.com/pt_br/"><button class="botao-canva"  >Canva</button></a>
+                </div>
+            </section>
+        </main>
+        <?php include('footer.php'); ?>
+</body>
+</html>

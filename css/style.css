@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+font-size: 100%;
+background: linear-gradient(68.15deg, #131313 16.62%, #30c96a 85.61%);
+}
+
+
+.meio {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #fff2e7;
+}
+
+.funcoes-tal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.img-funcoes {
+height: 450px;
+
+}
+
+.img-funcoes:hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+.secao-funcoes {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    
+}
+
+.funcoes {
+    
+    font-family: 'righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #fff2e7;
+}
+
+.funcao-item {
+    font-family: 'sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ecd6c4;
+
+}
+.secao-apresentacao {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.texto-de-apresentacao {
+    border-top: 0.4px solid #fff2e7;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.qr-code {
+    font-family: 'righteous', cursive;
+    font-weight: 400;
+    font-size: 37px;
+    color: #fff2e7;
+    padding-top: 30px;
+}
+
+.texto-second {
+font-family: 'sarala', sans-serif;
+font-weight: 400;
+font-size: 24px;
+color: #ecd6c4;
+}
+
+.img-bot {
+height: 400px;
+}
+
+.img-bot:hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+.duvidas {
+    border-top: 0.4px solid #fff2e7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.duvida-img {
+    height: 430px;
+}
+
+.explicacao-payments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+    font-family: 'sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ecd6c4;
+    margin-bottom: 30px;
+}
+
+.funcionamento {
+    font-family: 'righteous', cursive;
+    font-weight: 400;
+    font-size: 37px;
+    color: #fff2e7;
+}
+
+.desc-funcionamento {
+    font-family: 'sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ecd6c4;
+}
+
+.confianca {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+padding-bottom: 50px;
+}
+
+.confianca-img {
+height: 430px;
+}
+
+.desc-confianca {
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 28px;
+}
+
+.titulo-confianca {
+    font-family: 'righteous', cursive;
+    font-weight: 400;
+    font-size: 37px;
+    color: #fff2e7;
+}
+
+.secundario-confianca {
+    font-family: 'sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ecd6c4;
+}
+  
+.botao-pagar {
+    background-color: #ecd6c4;
+    width: 400px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(189, 187, 187, 0.25);
+    border-radius: 20px;
+    font-family: 'sarala', sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    color: #2F2325;
+
+    transition: background 0.3s;
+
+    }
+    
+    .botao-pagar:hover {
+        background-color: rgba(54, 134, 63, 0.479);
+        color: #fff2e7;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+   
