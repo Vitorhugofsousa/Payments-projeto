@@ -6,10 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style-sigin.css">
     <title>Crie sua conta Na Payments!</title>
-  
+    <link rel="stylesheet" href="css/style.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+       $(function () {
+          $("#header").load("header.html");
+          $("#footer").load("footer.html");
+       });
+    </script>
 </head>
 <body>
-<?php include('header.php'); ?>
+<div id="header"></div>
             <Main>
                 <section class="login">
                     <div class="content">      
@@ -77,6 +84,6 @@
                     </div>  
                 </section>
             </Main>
-            <?php include('footer.php'); ?>
+       <div id="footer"></div>
 </body>
 </html>

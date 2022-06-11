@@ -6,14 +6,16 @@
     <meta name="description" content="Um bot que irá moderar a sua comunidade">
    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Payments</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script>
        $(function () {
-          $("#header").load("header.php");
-          $("#footer").load("footer.php");
+          $("#header").load("header.html");
+          $("#footer").load("footer.html");
        });
     </script>
 </head>
-<?php include('header.php'); ?>
+<div id="header"></div>
 <body>
    
     <main class="meio" >
@@ -51,7 +53,7 @@
 <img class="confianca-img" src="img/Self confidence-bro.svg" alt="confianca">
 </section>
     </main>
-    <?php include('footer.php'); ?>
+    <div id="footer"></div>
   
 </body>
 </html>

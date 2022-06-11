@@ -6,9 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre</title>
     <link rel="stylesheet" type="text/css" href="css/style-sobre.css">
-   
+    <link rel="stylesheet" href="css/style.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+       $(function () {
+          $("#header").load("header.html");
+          $("#footer").load("footer.html");
+       });
+    </script>
 </head>
-<?php include('header.php'); ?>
+<div id="header"></div>
 <body>
             <main class="meio" >
             <section class="explain" >
@@ -53,6 +60,6 @@
                 </div>
             </section>
         </main>
-        <?php include('footer.php'); ?>
+        <div id="footer"></div>
 </body>
 </html>
