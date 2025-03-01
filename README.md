@@ -1,6 +1,6 @@
 # Payments
 
-### Land-page Type-project
+### Landing-page
 
 
 Payments é um projeto do tipo landing Page que simula paginas de apresentação de um banco/aplicativo de transferências bancárias, semelhante ao PayPal, criado para aplicar diferentes  tecnicas de css e JavaScript em paginas de rolagem, formulários e conteúdos front-end no geral.
